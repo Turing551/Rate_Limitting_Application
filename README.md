@@ -37,6 +37,8 @@ resilience4j:
 ```
 - #### Implemented Exception Handling and Logging using Apache Log4j
 
+### Screenshots of the output for reference
+
 | <p align="center"><img src="https://user-images.githubusercontent.com/37957322/120439607-54cf7d80-c3a0-11eb-8780-6b3f1ed21949.png"/><br/>Success Response</p> |<p align="center"><img src="https://user-images.githubusercontent.com/37957322/120439614-56994100-c3a0-11eb-9f9c-54ccc70f02ad.png"/><br/>Request limit reached</p> | 
 |--|--|
                 

@@ -14,7 +14,7 @@ Rate Limiting Means ability to make sure your API can be used only for X number 
 
 ### Features:
 
-Used Resilience4j Rate Limiter feature to implement this usecase. Resilience4j is a lightweight fault tolerance library. Lightweight, because the library only uses Vavr, which does not have any other external library dependencies.
+- Used Resilience4j Rate Limiter feature to implement this usecase. Resilience4j is a lightweight fault tolerance library. Lightweight, because the library only uses Vavr, which does not have any other external library dependencies. 
 
 The main purpose of Rate Limiter is to block too frequent requests and also we can configure parameters like 
 - `the period of the limit refresh`
@@ -35,7 +35,7 @@ resilience4j:
             apiRateLimit:
                 baseConfig: default 
 ```
-
+- #### Implemented Exception Handling and Logging using Apache Log4j
 
 | <p align="center"><img src="https://user-images.githubusercontent.com/37957322/120439607-54cf7d80-c3a0-11eb-8780-6b3f1ed21949.png"/><br/>Success Response</p> |<p align="center"><img src="https://user-images.githubusercontent.com/37957322/120439614-56994100-c3a0-11eb-9f9c-54ccc70f02ad.png"/><br/>Request limit reached</p> | 
 |--|--|
